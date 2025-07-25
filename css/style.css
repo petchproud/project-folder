@@ -1,0 +1,80 @@
+/* ตกแต่งตัวอักษร */
+.a0{
+    font-family: "Noto Serif Thai";
+    color: #AC3520;
+    font-weight: 600;
+    font-style: normal;
+    font-size: xx-large;
+    text-align: center;
+}
+.a1{
+    font-family: "Thasadith", sans-serif;
+    color: #1a2557;
+    font-weight: 300;
+    font-style: normal;
+    font-size: medium;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+
+/* ตกแต่งตัวอักษร */
+.b0{
+    font-family: "Noto Serif Thai";
+    color: #a81e90;
+    font-weight: 600;
+    font-style: normal;
+    font-size: xx-large;
+    text-align: center;
+}
+.b1{
+    font-family: "Thasadith", sans-serif;
+    color: #d128b2;
+    font-weight: 300;
+    font-style: normal;
+    font-size: medium;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+/* ตกแต่งรูปภาพ */
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 10px;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.gallery img{
+    border-radius: 10px;
+}
+
+/* ตกแต่งตัวอักษร */
+.c0{
+    font-family: "Noto Serif Thai";
+    color: #056308;
+    font-weight: 600;
+    font-style: normal;
+    font-size: xx-large;
+    text-align: center;
+}
+/* ตกแต่งตาราง */
+tbody{
+    width: 80%;
+    margin: 0auto;
+}
+td{
+    text-align: center;
+}
+tbody{
+    background-color:#a9eafc;
+}
+.th1{
+    background-color: #8db6e0;
+}
+.th2{
+    background-color: #8d9bda;
+}
