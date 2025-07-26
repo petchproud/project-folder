@@ -48,6 +48,7 @@
     text-align: justify;
     line-height: 1.5;
 }
+
 /* ตกแต่งรูปภาพหน้าmyprofile */
 .gallery{
     display: grid;
@@ -75,6 +76,7 @@
     text-align: center;
     text-decoration: underline;
 }
+
 /* ตกแต่งตารางsubject */
 table{
     width: 80%;
