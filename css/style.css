@@ -1,15 +1,26 @@
-/* ตกแต่งตัวอักษร */
-.a0{
+/* ตกแต่งตัวอักษรหน้าindex */
+.a00{
     font-family: "Noto Serif Thai";
-    color: #AC3520;
+    color: #0C4A60;
     font-weight: 600;
     font-style: normal;
     font-size: xx-large;
     text-align: center;
+    text-decoration: underline;
 }
 .a1{
     font-family: "Thasadith", sans-serif;
-    color: #1a2557;
+    color: #EF6C33;
+    font-weight: 300;
+    font-style: normal;
+    font-size: larger;
+    margin: 20px 15px;
+    text-align: justify;
+    line-height: 1.5;
+}
+.a2{
+    font-family: "Thasadith", sans-serif;
+    color:#333333;
     font-weight: 300;
     font-style: normal;
     font-size: medium;
@@ -17,54 +28,58 @@
     line-height: 1.5;
 }
 
-
-/* ตกแต่งตัวอักษร */
-.b0{
+/* ตกแต่งตัวอักษรหน้าmyprofile */
+.a01{
     font-family: "Noto Serif Thai";
-    color: #a81e90;
+    color:#722323;
     font-weight: 600;
     font-style: normal;
     font-size: xx-large;
     text-align: center;
+    text-decoration: underline;
 }
 .b1{
     font-family: "Thasadith", sans-serif;
-    color: #d128b2;
+    color:#BA487F;
     font-weight: 300;
     font-style: normal;
     font-size: medium;
+    margin: 20px 30px;
     text-align: justify;
     line-height: 1.5;
 }
-
-/* ตกแต่งรูปภาพ */
+/* ตกแต่งรูปภาพหน้าmyprofile */
 .gallery{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 10px;
 }
 .gallery img{
-    width: 100%;
+    width: 75%;
+    border-radius: 10px;
     height: auto;
+    margin: auto;
     object-fit: cover;
 }
 .gallery img{
     border-radius: 10px;
 }
 
-/* ตกแต่งตัวอักษร */
-.c0{
+/* ตกแต่งตัวอักษรsubject */
+.a03{
     font-family: "Noto Serif Thai";
     color: #056308;
     font-weight: 600;
     font-style: normal;
     font-size: xx-large;
     text-align: center;
+    text-decoration: underline;
 }
-/* ตกแต่งตาราง */
-tbody{
+/* ตกแต่งตารางsubject */
+table{
     width: 80%;
-    margin: 0auto;
+    margin: 0 auto;
+    margin: 50px;
 }
 td{
     text-align: center;
@@ -76,5 +91,10 @@ tbody{
     background-color: #8db6e0;
 }
 .th2{
-    background-color: #8d9bda;
+    background-color: #aebaf0;
+}
+
+/* ตกแต่งพื้นหลัง */
+body{
+    background-color: #eff2f8;
 }
